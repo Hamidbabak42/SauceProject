@@ -1,25 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-10T22:19:29 CST" name="Default suite" finished-at="2024-01-10T22:19:35 CST" duration-ms="5521">
+  <suite started-at="2024-01-30T22:23:47 CST" name="Suite" finished-at="2024-01-30T22:24:11 CST" duration-ms="23855">
     <groups>
     </groups>
-    <test started-at="2024-01-10T22:19:29 CST" name="Default test" finished-at="2024-01-10T22:19:35 CST" duration-ms="5521">
-      <class name="tesScriptScenario3.RunTestScinario3">
-        <test-method is-config="true" signature="luanchBrowser()[pri:0, instance:tesScriptScenario3.RunTestScinario3@1a482e36]" started-at="2024-01-10T22:19:30 CST" name="luanchBrowser" finished-at="2024-01-10T22:19:34 CST" duration-ms="4160" status="PASS">
+    <test started-at="2024-01-30T22:23:47 CST" name="Test" finished-at="2024-01-30T22:24:11 CST" duration-ms="23855">
+      <class name="sauce.scenarios.testscripts.RunTest">
+        <test-method is-config="true" signature="lounchBrowser()[pri:0, instance:sauce.scenarios.testscripts.RunTest@1623b78d]" started-at="2024-01-30T22:23:47 CST" name="lounchBrowser" finished-at="2024-01-30T22:23:51 CST" duration-ms="4338" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- luanchBrowser -->
-        <test-method signature="runTst()[pri:0, instance:tesScriptScenario3.RunTestScinario3@1a482e36]" started-at="2024-01-10T22:19:34 CST" name="runTst" finished-at="2024-01-10T22:19:35 CST" duration-ms="1294" status="PASS">
+        </test-method> <!-- lounchBrowser -->
+        <test-method signature="virfiErorrMsg3()[pri:0, instance:sauce.scenarios.testscripts.RunTest@1623b78d]" started-at="2024-01-30T22:23:51 CST" name="virfiErorrMsg3" finished-at="2024-01-30T22:23:54 CST" duration-ms="2400" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runTst -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tesScriptScenario3.RunTestScinario3@1a482e36]" started-at="2024-01-10T22:19:35 CST" name="closeBrowser" finished-at="2024-01-10T22:19:35 CST" duration-ms="0" status="PASS">
+        </test-method> <!-- virfiErorrMsg3 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:sauce.scenarios.testscripts.RunTest@1623b78d]" started-at="2024-01-30T22:23:54 CST" name="closeBrowser" finished-at="2024-01-30T22:23:54 CST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- tesScriptScenario3.RunTestScinario3 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- sauce.scenarios.testscripts.RunTest -->
+      <class name="sauce.scenarios.testscripts.RunTest4">
+        <test-method is-config="true" signature="lounchBrowser()[pri:0, instance:sauce.scenarios.testscripts.RunTest4@c8c12ac]" started-at="2024-01-30T22:23:54 CST" name="lounchBrowser" finished-at="2024-01-30T22:23:56 CST" duration-ms="2798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lounchBrowser -->
+        <test-method signature="vrifyItem()[pri:0, instance:sauce.scenarios.testscripts.RunTest4@c8c12ac]" started-at="2024-01-30T22:23:56 CST" name="vrifyItem" finished-at="2024-01-30T22:23:58 CST" duration-ms="1247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vrifyItem -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:sauce.scenarios.testscripts.RunTest4@c8c12ac]" started-at="2024-01-30T22:23:58 CST" name="closeBrowser" finished-at="2024-01-30T22:23:58 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- sauce.scenarios.testscripts.RunTest4 -->
+      <class name="sauce.scenarios.testscripts.RunTest5">
+        <test-method is-config="true" signature="lounchBrowser()[pri:0, instance:sauce.scenarios.testscripts.RunTest5@6adbc9d]" started-at="2024-01-30T22:23:58 CST" name="lounchBrowser" finished-at="2024-01-30T22:24:01 CST" duration-ms="2778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lounchBrowser -->
+        <test-method signature="verifyText()[pri:1, instance:sauce.scenarios.testscripts.RunTest5@6adbc9d]" started-at="2024-01-30T22:24:01 CST" name="verifyText" finished-at="2024-01-30T22:24:02 CST" duration-ms="1073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyText -->
+        <test-method signature="verifyItem()[pri:2, instance:sauce.scenarios.testscripts.RunTest5@6adbc9d]" started-at="2024-01-30T22:24:02 CST" name="verifyItem" finished-at="2024-01-30T22:24:02 CST" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyItem -->
+        <test-method signature="verifySuccessMsg()[pri:3, instance:sauce.scenarios.testscripts.RunTest5@6adbc9d]" started-at="2024-01-30T22:24:02 CST" name="verifySuccessMsg" finished-at="2024-01-30T22:24:03 CST" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessMsg -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:sauce.scenarios.testscripts.RunTest5@6adbc9d]" started-at="2024-01-30T22:24:03 CST" name="closeBrowser" finished-at="2024-01-30T22:24:03 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- sauce.scenarios.testscripts.RunTest5 -->
+      <class name="sauce.scenarios.testscripts.VrifySuccessMessageScen1">
+        <test-method is-config="true" signature="lounchBrowser()[pri:0, instance:sauce.scenarios.testscripts.VrifySuccessMessageScen1@4ec4f3a0]" started-at="2024-01-30T22:24:06 CST" name="lounchBrowser" finished-at="2024-01-30T22:24:09 CST" duration-ms="2819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lounchBrowser -->
+        <test-method signature="vrify()[pri:0, instance:sauce.scenarios.testscripts.VrifySuccessMessageScen1@4ec4f3a0]" started-at="2024-01-30T22:24:09 CST" name="vrify" finished-at="2024-01-30T22:24:11 CST" duration-ms="1773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vrify -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:sauce.scenarios.testscripts.VrifySuccessMessageScen1@4ec4f3a0]" started-at="2024-01-30T22:24:11 CST" name="closeBrowser" finished-at="2024-01-30T22:24:11 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- sauce.scenarios.testscripts.VrifySuccessMessageScen1 -->
+      <class name="sauce.scenarios.testscripts.VrifyErorrMessageScen2">
+        <test-method is-config="true" signature="lounchBrowser()[pri:0, instance:sauce.scenarios.testscripts.VrifyErorrMessageScen2@4550bb58]" started-at="2024-01-30T22:24:03 CST" name="lounchBrowser" finished-at="2024-01-30T22:24:06 CST" duration-ms="2796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lounchBrowser -->
+        <test-method signature="VriFyErorrMsg()[pri:0, instance:sauce.scenarios.testscripts.VrifyErorrMessageScen2@4550bb58]" started-at="2024-01-30T22:24:06 CST" name="VriFyErorrMsg" finished-at="2024-01-30T22:24:06 CST" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VriFyErorrMsg -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:sauce.scenarios.testscripts.VrifyErorrMessageScen2@4550bb58]" started-at="2024-01-30T22:24:06 CST" name="closeBrowser" finished-at="2024-01-30T22:24:06 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- sauce.scenarios.testscripts.VrifyErorrMessageScen2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

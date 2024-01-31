@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tesScriptScenario3.RunTestScinario3">
+      <class name="sauce.scenarios.testscripts.VrifyErorrMessageScen2">
         <methods>
           <include name="closeBrowser"/>
-          <include name="runTst"/>
-          <include name="luanchBrowser"/>
+          <include name="VriFyErorrMsg"/>
+          <include name="lounchBrowser"/>
         </methods>
-      </class> <!-- tesScriptScenario3.RunTestScinario3 -->
+      </class> <!-- sauce.scenarios.testscripts.VrifyErorrMessageScen2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
